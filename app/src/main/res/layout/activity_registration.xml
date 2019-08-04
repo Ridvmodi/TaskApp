@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    android:padding="50dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New"
+        android:layout_marginTop="50dp"
+        android:textSize="50sp"
+        android:textColor="#fff"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Account"
+        android:textSize="50sp"
+        android:textColor="#fff"
+        android:layout_marginBottom="30dp"
+        />
+
+    <EditText
+        android:id="@+id/enter_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:hint="Enter Id"
+        android:paddingBottom="15dp"
+        android:textColor="#fff"
+        android:textColorHint="#fff" />
+
+    <EditText
+        android:id="@+id/enter_password1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:hint="Enter PassWord"
+        android:paddingBottom="15dp"
+        android:password="true"
+        android:textColor="#fff"
+        android:textColorHint="#fff" />
+
+    <EditText
+        android:id="@+id/enter_password2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:hint="Confirm PassWord"
+        android:paddingBottom="15dp"
+        android:password="true"
+        android:textColor="#fff"
+        android:textColorHint="#fff" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/signup_btn"
+        android:background="@drawable/roundedbtn"
+        android:text="Sign Up"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Already Joined Login! "
+        android:gravity="center_horizontal"
+        android:textColor="#fff"
+        android:layout_marginTop="10dp"
+        android:id="@+id/login_txt"/>
+</LinearLayout>
